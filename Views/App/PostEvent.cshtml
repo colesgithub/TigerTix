@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Event>
+@{
+
+}
+<html>
+<head>
+    <title>TigerTix: Show Events</title>
+</head>
+
+<body>
+    <h1>Post Events</h1>
+
+    <form method="post">
+        <label>Title:</label>
+        <br />
+        <input type="text" name="title" />
+        <br />
+        <label>Description:</label>
+        <br />
+        <input type="text" name="desc" />
+        <br />
+        <label>Date:</label>
+        <br />
+        <input type="text" name="date" />
+        <br />
+        <label>Venue:</label>
+        <br />
+        <input type="text" name="venue" />
+        <br />
+        <input type="submit" value="Store Event" />
+    </form>
+</body>
+</html>

@@ -19,4 +19,9 @@
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\App\ShowUsers - Copy.cshtml.cs">
+      <DependentUpon>ShowUsers.cshtml.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

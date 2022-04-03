@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Event>
+
+<title>Tiger Tix: Show Users</title>
+
+<h1>Users</h1>
+
+<u1>
+    @foreach (var u in Model)
+            {
+                <li>@u.title</li>
+                <li>@u.venue</li>
+                <li>@u.desc</li>
+                <li>@u.desc</li>
+            }
+</u1>
+
+<br />
